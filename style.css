@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  nav{
+    top: 0px;
+    display: flex;
+    background-color: #fcaf02;
+    justify-content: space-between;
+    position: sticky;
+  }
+  nav h1{
+     font-size: 30px;
+     margin-left: 3vw;
+     margin-top: 1vw;
+     margin-bottom: 2vh;
+     color: black;
+     background-color: #fcaf02;
+  }
+  
+  nav ul{
+    list-style: none;
+    position: sticky;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 1vw;
+    justify-content: space-around;
+    background-color: #fcaf02;
+  }
+  nav ul li{
+   
+    background-color: #fcaf02;
+    padding: 10px 20px;
+  }
+  nav ul li a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    background-color: #fcaf02;
+  } 
+  .sec-2{
+    display: flex;
+    justify-content: space-around;
+  } 
+  section div{  
+    width: 30vw;
+    margin-top: 5vh;
+  }
+  section h1{
+    font-size: 40px;
+    width: 50vw;
+    margin-bottom: 2vh;
+    margin-top: 50px;
+  }
+  section div p{
+    font-size: 20px;
+  }
+  section img{
+    margin-top: 80px;
+    width: 650px;
+    height: 450px;
+  }
+  section div button{
+    background-color: #fcaf02;
+    font-size: 25px;
+    color: black;
+    padding: 10px 90px;
+    border-radius: 50px;
+  }
+  
+  
+  #hd-2{
+     color: #fcaf02;
+     font-size: 45px;
+     margin-top: 10vh;;
+     margin-left: 100px;
+  }
+  .section-2{
+    text-align: center;
+  }
+  section form{
+    width: 90vw;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  #name{
+     border-radius: 40px;
+     width: 80vw;
+     border-color: #fcaf02;
+     margin-bottom: 20px;
+     padding: 20px;
+  }
+  #email{
+    width: 80vw;
+    border-radius: 40px;
+    border-color: #fcaf02;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ #mno{
+  width:600px;
+  border-radius: 40px;
+  border-color: #fcaf02;
+  margin-top: 10px;
+  padding: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+ }
+ #city{
+  width:600px;
+  border-radius: 40px;
+  border-color: #fcaf02;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+ }
+
+ .section-2 button{
+  background-color: #fcaf02;
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+  padding: 10px 90px;
+  border-radius: 50px;
+  margin-left: 80px;;
+  margin-top: 20px;
+}
+
+
+table{
+  border: 2px solid #fcaf02;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 15vh;
+  font-size: 15px;
+  text-align:justify;
+  border-collapse:collapse;  
+  margin-bottom: 10vh;
+} 
+
+th{
+  border: 1px solid #fcaf02;
+  color: #dc9902;
+  font-size: 25px;
+  font-weight: normal;
+}
+td{
+  color:  #dc9902;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+tbody tr:hover{
+   border: 1px solid #fcaf02;
+}
